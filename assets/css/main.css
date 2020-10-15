@@ -2237,7 +2237,7 @@ input, select, textarea {
 				background-color: #18bfef;
 			}
 
-/* Form */
+/* Form
 
 	form {
 		margin: 0 0 2rem 0;
@@ -2547,7 +2547,7 @@ input, select, textarea {
 
 	.formerize-placeholder {
 		color: #909498 !important;
-	}
+	}*/
 
 /* Icon */
 
@@ -4642,7 +4642,7 @@ input, select, textarea {
 				font-size: 1.25rem;
 			}
 
-			#navPanel .close:hover {
+			#navPanel .close:hover { /*page number thing*/
 				color: #212931;
 			}
 
