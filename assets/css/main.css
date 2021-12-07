@@ -322,6 +322,11 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+	.fa-user {
+		transform: scale(4);
+		/*margin-bottom: -100px;*/
+	}
+
 /* Row */
 
 	.row {
