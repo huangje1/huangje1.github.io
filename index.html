@@ -1,16 +1,16 @@
 <!DOCTYPE HTML> <!-- Comments by: Jenny Huang -->
 <html lang="en"> <!-- My objective with creating these comments is so that everyone can understand where things are and people can use this as a template! Here, I've set the language to English.-->
-	<head> 
-		<title>Jenny Huang | Home</title> <!-- Describe the name of the tab -->
+	<head>
+		<title>Home | Jenny Huang</title> <!-- Describe the name of the tab -->
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
 			<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   			<meta name="author" content="Jenny Huang">
 			<meta name="keywords" content="HTML, CSS, JavaScript">
-			<meta name="Descripton" content="Huang. Jenny. / Bioinformatics Engineer. Weill Cornell Medicine. / B.S.. Biological Engineering. Cornell University'22.">
+			<meta name="Description" content="Huang. Jenny. / Bioinformatics Engineer. Weill Cornell Medicine. / B.S.. Biological Engineering. Cornell University'22.">
 		<link rel="stylesheet" href="assets/css/main.css"/>
-		<link rel="icon" href = "images/gh.png"> <!-- icon of tab. This icon is the unique icon Github(?) gave to me when I made an account-->
+		<link rel="icon" href="images/gh.png"> <!-- icon of tab. This icon is the unique icon Github(?) gave to me when I made an account-->
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=G-XTJ07M15WZ"></script>
 			<script>
@@ -21,51 +21,154 @@
 		</script>
 	</head>
 
-<!-- 0. Make a button that easily goes back up to the top -->
-
-<!-- Let the content begin! -->
 <body>
-	<button onclick="topFunction()" id="myBtn" title="Go to top">
-	<a class="fas fa-angle-double-up"></a>
-</button>
-
+	
 	<blockquote>
-		<b>quote:</b> 
+		<b>quote:</b>
 		well-behaved women seldom make history - laurel thatcher ulrich
 	</blockquote>
+	
+	<header class="title">
+		<header class="myname">
+			<a href="#">Jenny Huang</a>
+		</header>
+	</header>
 
-	<nav class="searchbar">
-		<a href="https://huangje1.github.io/" class="noselect">Jenny Huang</a>
-		<a href="https://www.linkedin.com/in/jenny-h/"target="_blank" class="icon brands fa-linkedin">
-		</a>
-	</nav>
+<!-- Working on searchbar
+
+	<div class="search-container">
+		<form action="/action_page.php">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit">
+				<i class="fa fa-search"></i>
+			</button>
+		</form>
+	</div> 
+
+-->
 
 	<!-- Nav menu bar -->
-	<nav class="nav" class="noselect">
-		<a class="active" href="huangje1.github.io">Background</a>
-		<a href="https://huangje1.github.io/education.html">Education</a>
-		<a href="https://huangje1.github.io/experience.html">Experience</a>
-		<a href="https://huangje1.github.io/projects.html">Projects</a>
-		<a href="https://huangje1.github.io/contact.html">Contact</a>
+	<nav id="navbar">
+	  <a class="active" href="">About</a>
+	  <a href="#works">Works</a>
+  	  <a href="#projects">Projects</a>
+  	  <a href="#contact">Contact Info</a>
 	</nav>
-	<div id="main">
-		<p>
-			<strong>Basics:</strong>
-			<br>
-			I'm a senior at Cornell University, where I study Biological Engineering. <br><br> Outside of biotechnology, I’m passionate about food, reading, music, anthropology, fitness, and healthcare.
-			<br><br>
-			> In June 2022, I will be joining <a href="https://weill.cornell.edu/" target="_blank">Weill Cornell Medicine</a> as a bioinformatics engineer.
-		</p>
+
+	<!-- Main -->
+	<div class="div1"id="main">
+		<h2>👋 Basics</h2>
+			<p> I'm a senior at <a href="https://www.engineering.cornell.edu/" target="_blank">Cornell University</a> where I study Biological Engineering. I’m dedicated to designing tech for social impact, innovating tech for medical treatment and clinical research, and solving problems in nature. On the side, I've built projects at local <a href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a> focusing on environmental sustainability and social good.</p>
+			
+		<!-- Grad Update
+		<p> I'm a Bioinformatics Engineer at <a href="https://weill.cornell.edu/" target="_blank">Cornell University</a>. I’m dedicated to designing tech for social impact, innovating tech for medical treatment and clinical research, and solving problems in nature. On the side, I've built projects at local <a href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a> focusing on environmental sustainability and social good.</p>
+
+		<p> I graduated with a Bachelors in Bioengineering (BEE) from <a href="https://www.engineering.cornell.edu/" target="_blank"> Cornell University</a> in 2022 after finishing <a href="https://en.wikipedia.org/wiki/Bronx_High_School_of_Science" target="_blank"> high school </a> at <a href="https://www.bxscience.edu/" target="_blank">Bronx Science</a> in 2018.
+		-->
+
+			<p>Outside of STEM, I enjoy reading, playing sports (including running and lifting), listening to music, and finding and eating good food! I'd love to talk - please email me about anything at <a target="_blank" href="mailto:jh985@cornell.edu">jh985@cornell.edu</a>.</p>
+			<p> My pronouns are she/her.</p>
+
 	</div>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+	<div class="div1" id="main" id="works">
+		<h2>👩‍💻 Experience</h2>
+			<p>
+				<u><a href="https://www.asabe.org/" target="_blank" style="font-size: 130%;">🗂 ASABE Biorobotics Project Team </u>
+					<br><br>
+					<img src="https://www.asabe.org/Portals/0/asabe_logo.jpg?ver=2019-11-27-082133-393" style="transform: scale(1.1)"/>
+				</a>
+			</p>
 
+
+			<p class="role">
+				✏ : Software and Design Team
+			</p>
+			<p>
+				· Built an image recognition feature using Python on a Raspberry Pi allowing robot to take a collection of potted plant images and accomplish a simulated complete harvest agricultural operation
+			</p>
+			<p>
+				· Implemented a robot that can autonomously identify, count, and remove excessive and unhealthy leaves and flowers of simulated and real strawberry plants
+				Official ASABE Website
+			</p>
+			<p>
+				<u><a href="https://www.youtube.com/c/ScIQ/videos" target="_blank" style="font-size: 130%;">🗂 SciQ</u>
+					<br><br>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png" style="transform: scale(1)"/>
+				</a>
+			</p>
+			<p class="role">
+				✏ : Application Development Intern
+			</p>
+			<p>
+				· Developed an HTML mobile responsive web app with dynamic element placement on webpage through custom CSS for science communicators to request research grants for project proposals from a given wireframe
+			</p>
+			<p>
+				· Coordinated email and correspondence with connected investors
+			</p>
+
+			<p>
+				<u><a href="https://www.amnh.org/" target="_blank" style="font-size: 130%;">🗂 American Museum of Natural History</u>
+					<br><br>
+					<img src="https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/files/about-us/press-center/the-titanosaur/2136446-1-eng-US/the-titanosaur_full_1220.jpg" style="transform: scale(0.8)"/>
+				</a>
+			</p>
+			<p class="role">
+				✏ :  Web Development Intern
+			</p>
+			<p>
+				· Clean and analyze AMNH’s website by implementing a site-wide page focus initiative on image sizing and an extensive code cleanup, while creating a reporting dashboard highlighting errors impacting page speed from a category perspective
+			</p>
+			<p>
+				· Architected and built an infinite scroll with pagination design, with CSS key-frame animation to <a href="https://www.amnh.org/about/press-center/the-titanosaur" target="_blank">highlight new dinosaur exhibit</a>, increasing page views by 30%
+			</p>
+			<p>
+				· Analyzed models and classification of visitors from conducted research on-site
+			</p>
+
+		<h2 id="projects">✂️ Projects</h2>
+			<p>
+				<u><a href="https://www.amnh.org/" target="_blank" style="font-size: 130%;">🗂 Pixelator</u>
+					<br><br>
+					<a href="http://pixelatorapp.com/img/exm3.png"><img src="http://pixelatorapp.com/img/exm3.png" style="transform: scale(0.8)"/></a>
+					<br>
+				</a>
+			</p>
+			<p>
+				· Architected software using Python numpy library to convert images into pixel art sprites without needing pre-processing or post-processing
+			</p>
+			<p>
+				· Analyzed models and source pictures to easily generate Pixelated graphics for games or posters
+			</p>
+
+			<p>
+				<u><a href="linked.html" target="_blank" style="font-size: 130%;">🗂 Compilation of Links</u>
+					<br><br>
+					<img src="images/tabs.jpeg" style="transform: scale(0.8)"/>
+					<br>
+					</a>
+			</p>
+			
+	</div>
+
+	<div>
+		<h2>🎓 Licenses and Certifications</h2>
+		<p class="cert">📋 Opioid Overdose Prevention</p>
+		<p class="cert">📍 NYC Department of Health and Mental Hygiene</p>
+		<p class="cert">📅 Issued Jan 2020 · No Expiration Date</p>
+	</div>
+
+	<footer>
+		<article id="contact">Feel free to add me and reach out!
+			<a href="https://www.linkedin.com/in/jenny-h/" target="_blank" class="icon brands fa-linkedin">: Linkedin</a>
+			<a href="https://github.com/huangje1" target="_blank" class="icon brands fa-github">: Github</a>
+			<a href="mailto:jh985@cornell.edu" target="_blank"class="icon fas fa-envelope">: Email</a>
+		</article>
+			<p>&copy; 2022 Jenny Huang | <a href="accessibility" >Accessibility</a></p>
+	</footer>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
 	</body>
 </html>
