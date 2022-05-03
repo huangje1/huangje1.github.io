@@ -312,6 +312,16 @@ img {
 	vertical-align: baseline;
 }
 
+hr {
+	/*display: block;*/
+  margin: 0.5rem 0;
+  border:  0.5rem 0;
+	width:80%;
+	/*border-width:0;*/
+	/*padding;*/
+	color:gray;
+	background-color:gray;
+}
 /* Footer */
 
 footer {
