@@ -313,12 +313,9 @@ img {
 }
 
 hr {
-	/*display: block;*/
-  margin: 0.5rem 0;
-  border:  0.5rem 0;
-	width:80%;
-	/*border-width:0;*/
-	/*padding;*/
+	margin-top: 2rem;
+  margin-bottom: 2rem;
+	width: 40%;
 	color:gray;
 	background-color:gray;
 }
